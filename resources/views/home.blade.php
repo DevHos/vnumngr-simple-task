@@ -17,6 +17,7 @@
                 <span>Please select a location:</span>
                 <input type="text" id="txtPlaces" style="width: 250px" placeholder="Enter a location" />
                 </div>
+                <span>To pay using stripe <a href="{{route('addmoney.paywithstripe')}}" title="">Click Here</a></span>
             </div>
         </div>
     </div>
